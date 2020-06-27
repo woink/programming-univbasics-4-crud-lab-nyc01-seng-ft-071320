@@ -1,17 +1,17 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["mouse", "desk", "couch", "computer"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array.unshift element
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array.pop element
 end
 
 def remove_element_from_end_of_array(array)
